@@ -30,3 +30,109 @@ EduSync is a government-focused education platform designed to streamline studen
 **Your Name:** Eyeni Mbu Nyellie
 
 **GitHub Repository:** [https://github.com/nyells/edusync](https://github.com/nyells/edusync)
+
+
+🏗️ Solution Architecture
+System Architecture Overview
+
+The EduSync platform will follow a cloud-native, multi-layer architecture hosted on AWS to ensure scalability, security, and nationwide accessibility.
+
+1️⃣ User Interface Layer
+
+Handles all user interactions.
+
+Components:
+
+Student portal
+
+School admin dashboard
+
+Government admin panel
+
+Technology: React.js + Tailwind CSS
+
+2️⃣ Authentication Layer
+
+Manages secure login and identity verification.
+
+Users:
+
+Students
+
+School officials
+
+Government administrators
+
+Service: AWS Cognito
+
+3️⃣ API Layer
+
+Acts as the communication bridge between frontend and backend.
+
+Service: AWS API Gateway
+
+4️⃣ Business Logic Layer
+
+Processes core workflows:
+
+Student registration
+
+School transfers
+
+Approval processes
+
+Service: AWS Lambda
+
+5️⃣ Database Layer
+
+Stores structured system data:
+
+Student records
+
+School data
+
+Transfer history
+
+Service: AWS RDS
+
+6️⃣ File Storage Layer
+
+Stores uploaded documents:
+
+Birth certificates
+
+Report cards
+
+Identification documents
+
+Service: AWS S3
+
+7️⃣ Content Delivery Layer
+
+Ensures fast access nationwide.
+
+Service: AWS CloudFront
+
+8️⃣ Security & Compliance Layer
+
+Provides system protection:
+
+Role-based access control
+
+Data encryption
+
+Audit logging
+
+Services: AWS IAM + Cognito policies
+
+9️⃣ Integration Layer
+
+Enables future connection with external government systems
+(e.g., national ID database).
+
+🔟 Monitoring & Maintenance Layer
+
+Ensures reliability and performance tracking.
+
+Service: AWS CloudWatch
+![My Architecture](images/nyells-architecture.png)
