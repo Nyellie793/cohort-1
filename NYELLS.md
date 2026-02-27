@@ -24,10 +24,9 @@ EduSync is a government-focused education platform designed to streamline studen
   - **AWS RDS** – relational database for structured student data  
   - **AWS CloudFront** – fast, reliable content delivery  
   - **AWS API Gateway** – secure API endpoints for government systems  
-- **UI/UX & Design:** Figma for prototyping, Canva for design assets  
+- **UI/UX & Design:** Figma for prototyping, Canva for design assets.  
 - **Other Tools:** Git/GitHub for version control, Postman for API testing, Docker for containerization  
 
-**Your Name:** Eyeni Mbu Nyellie
 
 **GitHub Repository:** [https://github.com/nyells/edusync](https://github.com/nyells/edusync)
 
